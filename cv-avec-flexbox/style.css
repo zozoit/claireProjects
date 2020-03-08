@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Verdana");
+
+/*UTILITIES - Background, colors, font*/
+
+/*Padding*/
+
+
+.main-document {
+    background-color: #ecf0f1;
+    width:  18cm;
+    height: 25cm;
+    margin-left: 0px;
+    
+    
+}
+
+.main-document p {
+   color:#2d3436;
+   margin-left: 250px;
+   font-size: 9px;   
+}
+
+
+.main-document h4 {
+    color: #ecf0f1;
+    margin-left: 250px;
+    padding-top: 20px;
+    padding-right: 10px;
+    margin-right: 10px;   
+ }
+
+ .experiences-item h4 {
+     color: #34495e;
+ }
+
+
+
+.informations-personnelles {
+    background-color: #34495e;
+    width: 225px;
+    height: 946px;
+    padding: 5px;
+    position: fixed;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.experiences {
+    margin-left: 300px;
+}
+
+p {
+    margin-bottom: 0;
+    font-size: 11px;
+    color: #ecf0f1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+    width: 50%;
+    text-align: center;
+}
+
+.main-document h5 {
+    color:  #2d3436;
+    margin-left: 250px;
+}
+
+   
+
+
+
+
+

@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,700");
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+}
+
+/*utilities*/
+
+.padding-150 {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.bg-green {
+    background: #38ada9;
+}
+
+.bg-cloud {
+    background: #ecf0f1;
+}
+
+.bg-dark {
+    background: #1e272e;
+}
+
+.text-cloud {
+    color: #ecf0f1;
+}
+
+.text-dark {
+    color: #1e272e;
+}
+
+.h-100 {
+    height: 100px;
+}
+
+.h-250 {
+    height: 250px;
+}
+
+.paddingZero {
+    padding: 0;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.font-60 {
+    font-size: 60px;
+}
+
+.font-70 {
+    font-size: 70px;
+}
+
+.font-80 {
+    font-size: 80px;
+}
+
+/*navbar*/
+
+
+
+/*header*/
+.bg {
+    background: url('images/network.jpg');
+}
+
+/*contact*/
+
+section#contact a {
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    transition: all .0s;
+    -moz-transition: all .0s;
+    -webkit-transition: all .0s;
+   
+
+}
+
+
+a.in {
+    background: url('./images/social-media.png')-444px -20px;
+}
+
+a.github {
+    background: url('./images/social-media.png')0 0;
+}
+
+section#contact li:hover a.in {
+    background: url('./images/social-media.png')-276px -20px;
+
+}
+
+section#contact li:hover a.github {
+    background: url('./images/social-media.png')-128px 0;
+
+}
+
+

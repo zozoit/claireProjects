@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!--Meta tags-->
+    <meta charset="utf-8">
+    <title>Cupcakes et Compagnie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/4aa9ac932d.js" crossorigin="anonymous"></script>
+
+    <!--Custom Style-->
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body>
+
+    <!--Ne pas oublier d'ajouter le scrolping à body-->
+
+    <!--Navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-black-pearl">
+        <a class="navbar-brand"
+            style="color:  #ecf0f1;font-weight: bold;	font-family: 'Lobster', Georgia, Times, serif;;font-size: 30px;"
+            href="#">Cupcakes et
+            Compagnie&nbsp;&nbsp;&nbsp;</a>
+        <div class="logo">
+            <img class="logo" src="images/images/logo-gateaux.png" style="width: 80px;height:60px;" alt="logo">
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Composants du Navbar-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #e3f2fd;	font-family: 'Lobster', Georgia, Times, serif;"
+                        href="#concept"> &nbsp;&#x2022; CONCEPT &#x2022;&nbsp;<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #e3f2fd;	font-family: 'Lobster', Georgia, Times, serif;"
+                        href="#menu"> &nbsp;&#x2022; MENU &#x2022;&nbsp;</a>
+                </li>
+                <li class="nav-item">
+                </li>
+                <a class="nav-link" style="color: #e3f2fd;	font-family: 'Lobster', Georgia, Times, serif;"
+                    href="#reserver"> &nbsp;&#x2022; RÉSERVATION &#x2022;&nbsp;</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #e3f2fd;	font-family: 'Lobster', Georgia, Times, serif;"
+                        href="#contact"> &nbsp;&#x2022; CONTACT &#x2022;&nbsp;</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </div>
+    <!--concept-->
+    <section id="concept" class="text-clouds">
+        <div class="container padding-150">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <div>
+                        <h4 id="titre1" onmouseover="changerTitre('titre1')" ;
+                            onmouseout="changerTitreRetour('titre1')">Concept</h4>
+                    </div>
+                    <br />
+                    <div class="container">
+                        <div class="row text-center">
+                            <div class="col-md-12">
+                                <div id="reservation" onmouseover="mettreConceptEnValeur('reservation')" ;
+                                    onmouseout="mettreConceptOrigine('reservation')">
+                                    <p>Formule à 20 euros : un plat sucré + un plat salé.<br> Les boissons sont à
+                                        volonté.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--menu-->
+    <section id="menu" class="text-baltic-sea bg-pretty-please">
+        <div class="container padding-80">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h4 id="titre2" onmouseover="changerTitre('titre2')" ; onmouseout="changerTitreRetour('titre2')">
+                        Menu</h4>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <strong>L</strong> E &nbsp;&nbsp;&nbsp; <strong>S</strong> A <strong>L</strong> É
+
+                    <br>
+                    <br>
+
+                </div>
+                <div class="col-md-6">
+                    <strong>L</strong> E &nbsp;&nbsp;&nbsp; <strong> S</strong> U<strong> C</strong> R<strong>
+                        É</strong>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 col-md-3">
+                            <div class="card-deck">
+                                <div class="card bg-light bg-white" style="width: 18rem;">
+                                    <div class="card-body" id="card-body1"
+                                        onmouseover="changerCouleurPlats('card-body1')" ;
+                                        onmouseout="changerCouleurPlatsRetour('card-body1')">
+                                        <h5 class="card-title">Le Vert</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Le végétarien</h6>
+                                        <p class="card-text">Légumes de saisons cuits</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="card-deck ">
+                                <div class="card bg-light bg-white" style="width: 18rem;">
+                                    <div class="card-body" id="card-body2"
+                                        onmouseover="changerCouleurPlats('card-body2');"
+                                        onmouseout="changerCouleurPlatsRetour('card-body2')">
+                                        <h5 class=" card-title">Le Boucher</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Le carnivore</h6>
+                                        <p class="card-text">Hamburgers maison</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="card-deck">
+                                <div class="card bg-light bg-white" style="width: 18rem;">
+                                    <div class="card-body" id="card-body3"
+                                        onmouseover="changerCouleurPlats('card-body3')" ;
+                                        onmouseout="changerCouleurPlatsRetour('card-body3')">
+                                        <h5 class="card-title">Le Svelte</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Les fruits</h6>
+                                        <p class="card-text">Big salade de fruits</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="card-deck">
+                                <div class="card bg-light bg-white" style="width: 18rem;">
+                                    <div class="card-body" id="card-body4"
+                                        onmouseover="changerCouleurPlats('card-body4')" ;
+                                        onmouseout="changerCouleurPlatsRetour('card-body4')">
+                                        <h5 class="card-title">Le Gourmand</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Les gateaux</h6>
+                                        <p class="card-text">Muffins aux trois chocolats</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Force next columns to break to new line at md breakpoint and up -->
+                        <div class="w-100 d-none d-md-block"></div>
+                        <div class="col-6 col-md-3">
+                            <div class="card-deck">
+                                <div class="card bg-light bg-white" style="width: 18rem;">
+                                    <div class="card-body" id="card-body5"
+                                        onmouseover="changerCouleurPlats('card-body5')" ;
+                                        onmouseout="changerCouleurPlatsRetour('card-body5')">
+                                        <h5 class="card-title">La Mer</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Le poisson</h6>
+                                        <p class="card-text">Pavé de saumon</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="card-deck">
+                                <div class="card bg-light bg-white" style="width: 18rem;">
+                                    <div class="card-body" id="card-body6"
+                                        onmouseover="changerCouleurPlats('card-body6')" ;
+                                        onmouseout="changerCouleurPlatsRetour('card-body6')">
+                                        <h5 class="card-title">Le Bobar</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">La salade</h6>
+                                        <p class="card-text">Salade Grec</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="card-deck">
+                                <div class="card bg-light bg-white" style="width: 18rem;">
+                                    <div class="card-body" id="card-body7"
+                                        onmouseover="changerCouleurPlats('card-body7')" ;
+                                        onmouseout="changerCouleurPlatsRetour('card-body7')">
+                                        <h5 class="card-title">Le Givré</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Les glaces</h6>
+                                        <p class="card-text">3 boules de glace au choix</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="card-deck">
+                                <div class="card bg-light bg-white" style="width: 18rem;">
+                                    <div class="card-body" id="card-body8"
+                                        onmouseover="changerCouleurPlats('card-body8')" ;
+                                        onmouseout="changerCouleurPlatsRetour('card-body8')">
+                                        <h5 class="card-title">La Bretonne</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Les crêpes</h6>
+                                        <p class="card-text">Crêpes au chocolat</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <br /><br />
+                            <p class="text-center">
+                                <div class="boisson">
+                                    <strong>Boisson à volonté (jus de fruits maison, eau, thé glacé). Pour les
+                                        vins,
+                                        demander la carte.</strong>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Carrousel Images-->
+    <section id="showcase">
+        <h2 class="sr-only">Carousel</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/images/macarons-2548810_1920.jpg" class="d-block w-100"
+                        style="width: 100px;height: 750px;" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/images/cookies-1835414_1920.jpg" style="width: 100px;height: 750px;"
+                        class="d-block w-100" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/images/pizza.jpg" style="width: 100px;height: 750px;" class="d-block w-100"
+                        alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/images/cup-2440073_1920.jpg" style="width: 100px;height: 750px;"
+                        class="d-block w-100" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/images/cupcakes.jpg" style="width: 100px;height: 750px;" class="d-block w-100"
+                        alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/images/abundance-1868573_1920.jpg" style="width: 100px;height: 750px;"
+                        class="d-block w-100" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+
+    <!--réserver-->
+    <section id="reserver" class="text-baltic-sea bg-soaring-eagle ">
+        <div class="container padding-80">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h4 id="titre3" onmouseover="changerTitre('titre3')" ; onmouseout="changerTitreRetour('titre3')">
+                        Réservation</h4>
+                    <hr>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div id="reserver-bordure1" onmouseover="backgroundReserver('reserver-bordure1')" ;
+                                onmouseout="backgroundRerserverRetour('reserver-bordure1')">
+                                <br>
+                                <h5> <strong>S</strong> U <strong>R&nbsp;&nbsp;&nbsp;</strong> P <strong>L</strong> A
+                                    <strong>C</strong> E
+                                </h5>
+                                <br>
+                                <strong>Nom:</strong> <input type="text" id="form1" onfocus="focusSurInput('form1')"
+                                    name="">
+                                <br>
+                                <br>
+                                <strong>Tel:</strong> &nbsp;&nbsp;&nbsp;<input type="text" id="form2"
+                                    onfocus="focusSurInput('form2')" name=""><br>
+                                <br>
+                                <div id="ajouter">
+                                    <button id="button-ajouter" v-on:click="counter += 1">Ajouter</button>
+                                    <p><strong>RESERVER : {{counter}} place(s) </strong></p>
+                                    <p><strong>Choisissez votre jour et votre heure <a href="reservation.html"
+                                                style="text-decoration:none; color:#000;">&nbsp;&nbsp;
+                                                <i class="far fa-calendar-alt fa-2x"></i></strong></a></p>
+                                </div>
+                                <div id="valider-resa">
+                                    <hr>
+                                    <button id="button-valider-resa"
+                                        v-on:click="changerValiderResa()">{{ btnMsg }}</button>
+                                    <p id=messageAnnonceResa></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="reserver-bordure2" onmouseover="backgroundReserver('reserver-bordure2')" ;
+                                onmouseout="backgroundRerserverRetour('reserver-bordure2')">
+                                <div id="selection-menu">
+                                    <br>
+                                    <h5> <strong>A&nbsp;&nbsp;&nbsp;</strong> E <strong>M</strong> P <strong>O</strong>
+                                        R
+                                        <strong>T</strong> E <strong>R</strong> </h5>
+                                    <br>
+                                    <strong>Nom:</strong> <input type="text" id="form3" onfocus="focusSurInput('form3')"
+                                        name="">
+                                    <br>
+                                    <br>
+                                    <strong>Tel:</strong> &nbsp;&nbsp;&nbsp;<input type="text" id="form4"
+                                        onfocus="focusSurInput('form4')" name=""><br>
+                                    <br>
+                                    <div class="formsale">
+                                        <form method="POST" action="mailto:lacanal.claire@gmail.com">
+                                            <label for="select-menu"> <strong>Choisissez votre plat
+                                                    salé:</strong></label>
+                                            &nbsp;&nbsp; &nbsp;<select id="select-menu">
+                                                <option value="" id="select-menu">
+                                                    Sélectionner mon plat</option>
+                                                <option value="vegetarien">Le Vert</option>
+                                                <option value="viande">Le Boucher</option>
+                                                <option value="poisson">La Mer</option>
+                                                <option value="salade">Le Bobar</option>
+                                            </select>
+                                        </form>
+
+                                        <div class="formsucre">
+                                            <form method="POST" action="mailto:lacanal.claire@gmail.com">
+                                                <label for="select-menu"><strong>Choisissez votre plat
+                                                        sucré:</strong></label>
+                                                &nbsp;<select id="select-menu">
+                                                    <option value="">Sélectionner mon plat</option>
+                                                    <option value="fruits">Le Svelte</option>
+                                                    <option value="gateaux">Le Gourmand</option>
+                                                    <option value="glace">Le Givré</option>
+                                                    <option value="crêpes">La Bretonne</option>
+                                                </select>
+                                            </form>
+                                            <div id="choisir-menu">
+                                                <button id="button-choisir-menu"
+                                                    v-on:click="choisirMenu()">{{ btnMsg }}</button>
+                                                <p id=messageMenu></p>
+                                            </div>
+                                            <div id="valider">
+                                                <hr>
+                                                <button id="button-valider"
+                                                    v-on:click="changerValider()">{{ btnMsg }}</button>
+                                                <p id=messageAnnonce></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contact-->
+    <section id="contact" class="bg-black-pearl text-clouds">
+        <div class="container padding-25">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h4 id="titre4" onmouseover="changerTitre('titre4')" ; onmouseout="changerTitreRetour('titre4')">
+                        Contact</h4>
+                    <hr>
+                </div>
+            </div>
+            <div class="adresse">
+                <div class="container">
+                    <div class="row text-clouds">
+                        <div class="col-md-6">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Votre Email</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="name@example.com" onfocus="focusMsg('exampleFormControlInput1')">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Votre Message</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                        onfocus="focusMsg('exampleFormControlTextarea1')"></textarea>
+                                </div>
+                                <button id="button-form" onclick="changerBoutonForm('button-form')">Envoyer un
+                                    message</button>
+                            </form>
+                        </div>
+                        <div class="col-md-6 text-clouds"><br />
+                            <p><i class="fas fa-map-marked-alt fa-lg"></i>&nbsp;&nbsp;&nbsp;Addresse : &nbsp;<strong>92
+                                    Rue de
+                                    Charenton, 75012 Paris</strong>
+                            </p>
+                            <p><i class="fas fa-phone-alt fa-lg"></i>&nbsp;&nbsp;&nbsp;Phone : &nbsp;<strong> 40 00 00
+                                    10</strong></p>
+                            <p><i class="fas fa-registered fa-lg"></i>&nbsp;&nbsp;&nbsp;Reservations :&nbsp;
+                                <strong> lafourchette.com</strong>
+                            </p>
+                            <p><i class="fas fa-calendar-alt fa-lg"></i>&nbsp;&nbsp;&nbsp;Location du restaurant pour un
+                                évènement :<br><strong>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Laissez nous un
+                                    message</strong></p>
+                            <br>
+                            <div id="carte">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.532960956341!2d2.374153915853228!3d48.848046609388646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6720574c1e7b1%3A0xcbaff2e66ba9f8e4!2s92%20Rue%20de%20Charenton%2C%2075012%20Paris!5e0!3m2!1sfr!2sfr!4v1582803186599!5m2!1sfr!2sfr"
+                                    width="300" height="120" frameborder="0" style="border:0;"
+                                    allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="name-fin">
+            <footer class="contact text-clouds">
+                <div class="container padding-25">
+                    <div class="row  text-center">
+                        <div class="col-md-12">
+                            <p class="padding-10" style="margin-bottom:0">&copy; Claire Lacanal</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+    </section>
+    <!--Vue.js Framework-->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="bundle.js"></script>
+
+</body>
+
+</html>

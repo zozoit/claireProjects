@@ -1,0 +1,92 @@
+@media print { 
+    body {
+        width:  18cm;
+        height: 25cm;
+        margin-left: 0px;
+    background-color: #ecf0f1 ;   
+}
+
+.main-document p {
+    color:#2d3436;
+    font-size: 0.35cm;  
+ }
+
+
+@page { 
+    size: portrait; 
+} 
+
+.informations-personnelles {
+    column-count: 1;
+}
+
+.main-document {
+    column-count: 1;
+    margin-left: 7cm;
+}
+.main-document h4 {
+    color: #2d3436;
+    margin-left: 3cm;
+    padding-top: 0.5cm;       
+}
+
+.experiences-item h4 {
+    color: #34495e;
+    
+}
+
+.paragraphes-presentation {
+    margin-top: 1cm;
+    padding-bottom: 5cm;
+}
+
+
+
+.informations-personnelles {
+    background-color: #34495e;
+    width: 8.8cm;
+    height: 35cm;
+    padding-top: 1cm;
+    position: fixed;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.01cm;
+  
+}
+
+.experiences-item {
+    margin-left: 3cm;
+    padding-top: 0.01cm;
+}
+
+p {
+    margin-bottom: 0;
+    font-size: 11px;
+    color: #ecf0f1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+    width: 25%;
+    text-align: center;
+}
+
+.phrase-intro {
+    margin-left: 3cm;
+}
+.main-document h5 {
+    color:  #2d3436;
+    margin-left: 110px;
+}
+.paragraphes-presentation h5 {
+    color:  #ecf0f1;
+}
+
+.objectif-pro {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+}

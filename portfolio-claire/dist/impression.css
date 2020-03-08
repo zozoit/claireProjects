@@ -1,0 +1,34 @@
+@media print { 
+    body {
+    width: auto;
+    margin-left: 2cm;
+    page-break-inside: avoid;
+    
+}
+
+#competences-experiences {
+    background-color: #ecf0f1;
+}
+
+.menu, .imprimer {
+    display:none;
+}
+
+@page { 
+    size: portrait; 
+} 
+
+@page debut-cv {
+    size: landscape;
+} 
+
+@page { 
+    margin: 5cm; 
+}
+
+
+.debut-cv img {
+    display: none;
+}
+
+} 

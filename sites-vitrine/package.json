@@ -1,0 +1,25 @@
+{
+  "name": "sites-vitrine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "bounce.js": "^0.8.2",
+    "jquery": "^3.4.1",
+    "vue": "^2.6.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "devDependencies": {
+    "vue-loader": "^15.9.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

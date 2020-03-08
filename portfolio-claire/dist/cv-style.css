@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,700");
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+   
+} 
+
+
+
+/*utilities*/
+
+.padding-100 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.padding-80 {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.padding-150 {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.bg-good-samaritain {
+    background: #3c6382;
+}
+
+.bg-cloud {
+    background: #ecf0f1;
+}
+
+.bg-forest-blues {
+    background: #0a3d62;
+}
+
+.text-cloud {
+    color: #ecf0f1;
+}
+
+.text-dark {
+    color: #1e272e;
+}
+
+.h-100 {
+    height: 100px;
+}
+
+.h-250 {
+    height: 250px;
+}
+
+.paddingZero {
+    padding: 0;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.font-60 {
+    font-size: 60px;
+}
+
+.font-70 {
+    font-size: 70px;
+}
+
+.font-80 {
+    font-size: 80px;
+}
+
+p { 
+    margin: 0;
+    
+}
+
+h4 {
+    color:  #3c6382;
+}
+
+.bilan {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+i {
+    margin-left: 10px;
+}
+
+h4 {
+    padding: 10px;
+}
+
+.formations p {
+    margin-left: 17px;
+}
+
+.formations {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    padding-bottom: 25px;
+}
+
+#experiences-pro {
+    font-size: 15px;
+}
+
+.experiences-item {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.roundedImage img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+}
+
+
