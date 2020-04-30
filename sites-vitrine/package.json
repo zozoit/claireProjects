@@ -4,7 +4,7 @@
   "main": "index.js",
   "dependencies": {
     "bounce.js": "^0.8.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "vue": "^2.6.11",
     "webpack-dev-server": "^3.10.3"
   },
